@@ -9,9 +9,10 @@ The ```togglefan.sh``` script sequentially cycles through the three fan modes:
 The ```togglegpu.sh``` script allows switching between the "Integrated" and "Hybrid" GPU modes and vice versa. 
 
 ### Dependencies:
-- asusctl
+- [asusctl](https://gitlab.com/asus-linux/asusctl)
+- [zenity](https://github.com/GNOME/zenity)
+- [supergfxctl](https://gitlab.com/asus-linux/supergfxctl)
 - notify-send
-- zenity
-- supergfxctl
 ### Notes: 
 If you want to display the fan icon in the fan notification, replace "mypath/fan.png" with the path where the image is stored on your computer. 
+The scripts have been tested on GNOME 41. 
